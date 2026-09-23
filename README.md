@@ -35,9 +35,11 @@ Once the Okta side was correctly configured, the token exchange request failed w
 
 ## Evidence
 
-- [ ] Screenshot: authorization request redirect showing `code=` parameter in the browser address bar
-- [ ] Screenshot: token exchange response (redact `access_token` and `id_token` values — show response shape/keys only)
-- [ ] Screenshot: decoded ID token claims (jwt.io or equivalent)
+![Authorization code returned in redirect](Screenshot%20Okta%201.png)
+
+![Token exchange response](Screenshot%20Okta%202.png)
+
+![Decoded ID token claims - jwt.io](JSON%20Web%20Tokens%20page.pdf)
 
 ## Decoded ID token — claims documented
 
